@@ -1,0 +1,73 @@
+section {
+	background-color: black;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.card-box {
+	width: 400px;
+	background-color: #202632;
+	text-align: center;
+	padding: 30px;
+	color: #fff;
+	position: relative;
+	border-radius: 10px;
+}
+.card-box .text {
+	min-height: 250px;
+}
+.card-box .text,
+.card-box h3 {
+	margin-bottom: 20px;
+	margin-bottom: 20px;
+}
+.card-box h3 {
+	font-size: 22px;
+	color: #4ffda6;
+}
+.card-box q {
+	font-weight: 600;
+}
+.line {
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+.line span {
+	position: relative;
+	font-size: 30px;
+}
+.two {
+	padding: 0 10px;
+}
+.line .one,
+.three {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 3px;
+	background-color: rgb(66, 66, 66);
+	display: block;
+}
+.card-box button {
+	background-color: #4ffda6;
+	border-radius: 50%;
+	border: none;
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	left: 50%;
+	margin-left: -25px;
+	bottom: -25px;
+}
+.card-box button i {
+	background-color: black;
+	color: #5c816f;
+	padding: 2px 4px;
+}
